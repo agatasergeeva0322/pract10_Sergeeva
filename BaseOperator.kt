@@ -20,7 +20,7 @@ public open class BaseOperator  (override var OperatorName : String,
             while (CoverageArea<0.0)
             print("Есть плата за соединение? ")
             var p = readLine()!!.toString()
-            if (p =="Да") Pp = true
+            if (p == "Да" || p == "да" || p == "ДА") Pp = true
             else Pp = false
         }
         catch(e : Exception)
